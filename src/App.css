@@ -1,4 +1,10 @@
 
 body {
     background-image: url('Images/background.png');
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: center;
 }
