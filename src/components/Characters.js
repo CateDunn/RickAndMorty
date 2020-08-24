@@ -1,10 +1,10 @@
-import React from 'react'
+import React from 'react';
+import CharacterItem from './CharacterItem'
 
-const Characters = ( {characters, isLoading}) => {
+const Characters = ( {characters, isLoading} ) => {
     return isLoading ? (<h1>Loading...</h1>) : (<section className='cards'>
         {characters.map(character => (
-            <h1 key={character.id}>{character.name}</h1>
-            
+            <CharacterItem key={character.id} character={character}></CharacterItem>
         ))}
 
     </section>)

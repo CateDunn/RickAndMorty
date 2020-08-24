@@ -1,5 +1,11 @@
 * {
     color: white;
+    box-sizing: border-box;
+    margin: 1;
+    padding: 0;
+    font-family: 'Bitter', serif;
+
+    
 }
 body {
     background-image: url('Images/background.png');
